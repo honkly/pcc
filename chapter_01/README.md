@@ -1,4 +1,4 @@
-Chapter 1
+Chapter 1 第一章 起步
 ===
 
 Setting Up
