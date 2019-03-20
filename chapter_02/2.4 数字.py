@@ -3,23 +3,23 @@
 # @Date    : 2017-03-26 23:49:02
 # @Author  : honkly (honkly@163.com)
 # @Link    : http://http://www.cnblogs.com/honkly/
-# @Version : $Id$
+# @Version : 1.0
 
-#2.4: 数字
-print("#2.4: 数字")
+# 2.4 数字
+print("2.4")
 
-#2.4.1: 整数
-print("#2.4.1: 整数")
+# 2.4.1 整数
+print("2.4.1")
 
 print(2 + 3)
-#python使用2个**号表示乘方运算
+# python使用2个**号表示乘方运算
 print(2 ** 3)
 print(2 * 3)
 
 print( (2+3) * 4)
 
-#2.4.2：浮点数
-print("#2.4.2：浮点数")
+# 2.4.2 浮点数
+print("2.4.2")
 
 print(2*0.1)
 
@@ -27,24 +27,25 @@ print(0.2+0.1)
 
 print(3 * 0.1)
 
-#2.4.3 使用函数 str()避免类型错误
+# 2.4.3 使用函数 str()避免类型错误
+print("2.4.3")
 
 age = 23
 message = "Happy " + str(age) + "rd Birthday!"
 print(message)
 
-# ------动手试一试------
+
 print("# ------动手试一试------")
 
-#2-8:数字8
-print("#2-8:数字8")
+# 2-8 数字8
+print("2-8")
 
 print(5+3)
 print(10-2)
 print(4*2)
 print(16//2)
 
-#2-9: 最喜欢的数字：
+# 2-9 最喜欢的数字：
 
 favorite_num = 8
 message = "My favorite number is " + str(favorite_num) +"!"
