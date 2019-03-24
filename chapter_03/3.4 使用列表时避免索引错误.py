@@ -14,3 +14,10 @@ print(motorcycles[-1])
 
 motorcycles = []
 #print(motorcycles[-1])
+
+print("------动手试一试------")
+
+# 3-11 有意引发错误：
+print("3-11")
+motorcycles = ['honda','yamaha','suzuki']
+print(motorcycles[3])

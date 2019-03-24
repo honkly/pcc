@@ -34,13 +34,13 @@ print("------动手试一试------")
 # 3.1 姓名
 print("3.1")
 names = ['honkly','kevin','YongLee','Bernard']
-for i in names:
-	print(i)
+for name in names:
+	print(name)
 
 # 3.2 问候语
 print("3.2")
-for i in names:
-	print("Hi!",i.title(),"!")
+for name in names:
+	print("Hi!" + name.title()+"!")
 
 # 3.3 自己的列表
 print("3.3")

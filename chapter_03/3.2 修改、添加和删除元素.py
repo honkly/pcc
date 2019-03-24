@@ -14,7 +14,7 @@ print("3.2.1")
 motorcycles = ['honda','yamaha','suzuki']
 print(motorcycles)
 motorcycles[0] = 'ducati'
-print(motorcycles[0])
+print(motorcycles)
 
 # 3.2.2 在列表中添加元素
 print("3.2.2")
@@ -114,14 +114,16 @@ print("3-5")
 
 print(names[2] + " can't go here.")
 
+# 三种方式删除obama:
 del names[2]
 #names.pop(2)
 #names.remove('obama')
+
 names.append('makaien')
 
 print(names)
-for i in names:
-	print("Welcome!",i,"!")
+for name in names:
+	print("Welcome!",name,"!")
 
 # 3-6 添加嘉宾
 print("3-6")
@@ -143,8 +145,8 @@ names.append('KaKa')
 print(names)
 
 #打印一系列消息，向名单中的每位嘉宾发出邀请。
-for i in names:
-	print("Welcom to here! " + i + "!")
+for name in names:
+	print("Welcom to here! " + name + "!")
 
 # 3-7 缩减名单
 print("3-7")
@@ -154,19 +156,23 @@ print("Only 2 can come here!")
 
 # 使用pop()不断的删除名单中的嘉宾，直到只有2位嘉宾为止
 print(names)
-names.pop(5)
-names.pop(4)
-names.pop(3)
-names.pop(2)
+number_list = len(names)
+print("There are " + str(number_list) + " peoples in the list")
+
+names.pop()
+names.pop()
+names.pop()
+names.pop()
+
 print(names)
 
 # 对于余下的两位嘉宾中的每一位，都打印一条消息，指出他仍然在受邀人之列
-for i in names:
-	print("Hi! " + i + "! You are still in the list of welcome people")
+for name in names:
+	print("Hi " + name + "!","You are still in the list of peopeo")
 
 # 使用del将最后2位嘉宾从名单中删除，让名单变成空的。打印该名单，核实程序结束时名单确实是空的。
-names.pop(1)
-names.pop(0)
+names.pop()
+names.pop()
 print(names)
 
 if names == []:
