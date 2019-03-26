@@ -3,7 +3,7 @@
 # @Date    : 2017-04-01 09:12:44
 # @Author  : honkly (honkly@163.com)
 # @Link    : http://http://www.cnblogs.com/honkly/
-# @Version : $Id$
+# @Version : 1.0
 
 #3.4 使用列表时避免索引错误
 
