@@ -88,8 +88,55 @@ class Restaurant():
     def open_restaurant(self):
         print("Restaurant is OPEN!")
 
+    def print_number_served(self):
+        print("There are " + str(self.number_served) + " number served")
+
     def set_number_served(self, number):
     	self.number_served = number
-    	print("There are " + str(self.number_served) + " number served")
 
-    
+    def increment_number_serverd(self):
+        self.number_served += 10
+    	
+restaurant = Restaurant('ALAN', 'restaurant')
+restaurant.print_number_served()
+restaurant.number_served = 13
+restaurant.print_number_served()
+
+restaurant.set_number_served(666)
+restaurant.print_number_served()
+
+restaurant.increment_number_serverd()
+restaurant.print_number_served()
+
+# 9-5 尝试登陆次数
+print("9-5")
+
+class User():
+    """docstring for User"""
+    def __init__(self, first_name, last_name):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.login_attempts = 0
+
+    def describe_user(self):
+        print(self.first_name.title() + ' ' + self.last_name.title())
+
+    def greet_user(self):
+        print("Hello! " + self.first_name.title() + ' ' + self.last_name.title())
+
+    def increment_login_attempts(self):
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        self.login_attempts = 0
+
+    def print_login_attempts(self):
+        print("Login attempts are " + str(self.login_attempts))
+
+user_test = User('knight', 'Lee')
+user_test.print_login_attempts()
+user_test.increment_login_attempts()
+user_test.increment_login_attempts()
+user_test.print_login_attempts()
+user_test.reset_login_attempts()
+user_test.print_login_attempts()

@@ -1,5 +1,4 @@
-"""A set of classes that can be used to represent electric cars."""
-
+"""A class that can be used to represent a car."""
 from car import Car
 
 class Battery():
@@ -23,8 +22,7 @@ class Battery():
         message = "This car can go approximately " + str(range)
         message += " miles on a full charge."
         print(message)
-    
-        
+
 class ElectricCar(Car):
     """Models aspects of a car, specific to electric vehicles."""
 
