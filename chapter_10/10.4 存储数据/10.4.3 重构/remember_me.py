@@ -11,7 +11,7 @@ def get_stored_username():
     else:
         return username
 
-def get_new_username():
+def set_new_username():
     """Prompt for a new username."""
     username = input("What is your name? ")
     filename = 'username.json'
@@ -25,7 +25,7 @@ def greet_user():
     if username:
         print("Welcome back, " + username + "!")
     else:
-        username = get_new_username()
+        username = set_new_username()
         print("We'll remember you when you come back, " + username + "!")
 
 greet_user()
