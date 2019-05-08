@@ -7,6 +7,7 @@
 
 # 2.1 运行hello_world.py时发生的情况
 print("2.1")
+
 print("Hello Python World!")
 
 

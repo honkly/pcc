@@ -6,6 +6,8 @@
 # @Version : 1.0
 
 # 2.3 字符串
+print("2.3")
+
 "This is a string."
 'This is also a string.'
 'I told my friend,"Python is my favorite language!"'
@@ -14,6 +16,7 @@
 
 # 2.3.1 使用方法修改字符串的大小写
 print("2.3.1") 
+
 # name.py
 name = "ada lovelace"
 print(name.title())
@@ -25,6 +28,7 @@ print("2.3.2")
 
 first_name = "ada"
 last_name = "lovelace"
+# 合并
 full_name = first_name + " " + last_name
 print(full_name)
 
