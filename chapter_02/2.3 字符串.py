@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date    : 2017-03-26 19:32:10
-# @Author  : honkly (honkly@163.com)
-# @Link    : http://http://www.cnblogs.com/honkly/
+# @Date    : 2017-03-26 18:33:11
+# @Author  : honkly (liyongoffice@gmail.com)
+# @Link    : www.liyongoffice.cn
 # @Version : 1.0
 
 # 2.3 字符串
@@ -48,12 +48,16 @@ print("Languages:\n\tPython\n\tC\n\tJavaScript")
 # 2.3.4 删除空白
 print("2.3.4")
 favorite_language = ' Python '
+print(len(favorite_language))
 l = favorite_language.rstrip()  #删除右边空格
 m = favorite_language.lstrip()  #删除左边空格
 n = favorite_language.strip()   #删除全部空格
 print(l)
+print(len(l))
 print(m)
+print(len(m))
 print(n)
+print(len(n))
 
 # 2.3.5 使用字符串时避免语法错误
 print("2.3.5")
@@ -69,7 +73,7 @@ print("2-3")
 
 name = "Eric"
 print("Hello",name,",would you like to learn some Python today?")
-print("Hello " + name + ",would you like to learn some Python today?")
+print("Hello " + name + " ,would you like to learn some Python today?")
 
 # 2-4 调整名字的大小写
 print("2-4")

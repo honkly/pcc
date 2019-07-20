@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date    : 2017-03-26 23:49:02
-# @Author  : honkly (honkly@163.com)
-# @Link    : http://http://www.cnblogs.com/honkly/
+# @Date    : 2017-03-26 18:33:11
+# @Author  : honkly (liyongoffice@gmail.com)
+# @Link    : www.liyongoffice.cn
 # @Version : 1.0
 
 # 2.4 数字
