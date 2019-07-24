@@ -1,8 +1,8 @@
 class GameStats():
-    """Track statistics for Alien Invasion."""
+    """跟踪游戏的统计信息"""
     
     def __init__(self, ai_settings):
-        """Initialize statistics."""
+        """初始化统计信息"""
         self.ai_settings = ai_settings
         self.reset_stats()
         
