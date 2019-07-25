@@ -1,15 +1,14 @@
 class GameStats():
-    """Track statistics for Alien Invasion."""
+    """跟踪游戏的统计信息"""
     
     def __init__(self, ai_settings):
-        """Initialize statistics."""
+        """初始化统计信息"""
         self.ai_settings = ai_settings
         self.reset_stats()
         
-        # Start game in an inactive state.
+        # 让游戏一开始处于非活动的状态
         self.game_active = False
-        
-        # High score should never be reset.
+        # 在任何情况下都不应重置最高得分
         self.high_score = 0
         
     def reset_stats(self):
