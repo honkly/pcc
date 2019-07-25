@@ -26,7 +26,7 @@ class Scoreboard():
         # 准备左上角剩余飞船图像
         self.prep_ships()
 
-    def  prep_score(self):
+    def prep_score(self):
         """将得分转换为一幅渲染的图像"""
         rounded_score = int(round(self.stats.score, -1))
         score_str = "{:,}".format(rounded_score)

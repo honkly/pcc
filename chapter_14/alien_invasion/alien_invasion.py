@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2019-07-25 21:10:45
+# @Author  : LY (liyongoffice@gmail.com)
+# @Link    : http://www.liyongoffice.cn
+# @Version : 1.0
+
 import sys
 import pygame
 from pygame.sprite import Group
@@ -30,7 +37,6 @@ def run_game():
     bullets = Group()
     # 创建外星人群
     aliens =  Group()
-    # alien = Alien(ai_settings, screen)
     gf.creat_fleet(ai_settings, screen, ship, aliens)
 
     # 开始游戏的主循环
